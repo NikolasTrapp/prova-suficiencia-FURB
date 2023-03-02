@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class JogoDaVelha_Jogador {
 
     private JogoDaVelha_Mapa mapa;
-    private char letra = 'O';
+    private char letra = 'X';
 
     public JogoDaVelha_Jogador(JogoDaVelha_Mapa mapa) {
         this.mapa = mapa;
@@ -30,7 +30,7 @@ public class JogoDaVelha_Jogador {
         }
         return mapa.jogar(l, c, letra);
     }
-    
+
     public char getLetra() {
         return this.letra;
     }
