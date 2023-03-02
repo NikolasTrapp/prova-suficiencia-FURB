@@ -30,7 +30,7 @@ public class JogoDaVelha_Jogador {
         }
         return mapa.jogar(l, c, letra);
     }
-
+    
     public char getLetra() {
         return this.letra;
     }

@@ -54,7 +54,6 @@ public class JogoDaVelha_Mapa{
                     System.out.print("| " + mapa[i][j] + " | ");
                 }
             }
-            
         }
         System.out.println(linha.concat(linha));
     }
@@ -93,7 +92,6 @@ public class JogoDaVelha_Mapa{
                 return true;
             }
         }
-        
         //Verificando diagonais
         if (mapa[0][0] == jogador && mapa[1][1] == jogador && mapa[2][2] == jogador){
             return true;

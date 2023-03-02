@@ -26,9 +26,6 @@ public class JogoDaVelha {
                 jogoMapa.limpaMapa();
             }
         } while (flag);
-
-
-
     }
 
     /**
@@ -43,7 +40,7 @@ public class JogoDaVelha {
         while (true){
             jogoMapa.desenha(count);
             if (jogoMapa.empatou()){
-                System.out.println("Empatou");
+                System.out.println("... EMPATOU!");
                 break;
             }
             if (aleatorio % 2 == 0){
